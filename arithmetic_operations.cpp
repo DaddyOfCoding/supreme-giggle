@@ -40,7 +40,7 @@ int divide_by_module_fnc(int a, int b)
 
 int main()
 {
-	char some_symbol{'a'}; // Более одного символа записать не получится
+	char some_symbol{ 'a' }; // Более одного символа записать не получится
 	int some_number = 15; // Целочисленный тип данных
 	float some_number_with_comma = 15.25; //Тип данных с плавающей запятой тип данных double почти идентичен float, но имеет большую точность
 	bool true_or_false = 1; //Логический тип данных, правда или ложь
